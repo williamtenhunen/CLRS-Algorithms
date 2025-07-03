@@ -1,0 +1,31 @@
+# IntelliJ IDEA files
+.idea/
+*.iml
+
+# Compiled output
+out/
+target/
+build/
+*.class
+*.jar
+*.war
+
+# Logs and cache
+*.log
+.DS_Store # macOS specific
+Thumbs.db # Windows specific
+
+# Maven/Gradle wrapper
+.gradle/
+gradle-wrapper/
+gradle/
+*.gradle.kts.cache
+.DS_Store
+
+# Local settings
+*.properties
+!src/main/resources/*.properties # UNCOMMENT if you want to track properties files in resources
+
+# Temporary files
+temp/
+tmp/
