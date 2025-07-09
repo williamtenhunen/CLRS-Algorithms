@@ -1,0 +1,24 @@
+# CLRS Algorithms
+
+This repository contains implementations of algorithms from the book *Introduction to Algorithms* by Cormen, Leiserson, Rivest, and Stein (commonly referred to as CLRS).
+
+## Current Implementations
+
+The algorithms are located in the `src/main/java` directory. Currently, the following algorithms are implemented:
+
+- **Insertion Sort** (`InsertSort.java`): A simple, in-place sorting algorithm with O(n²) time complexity, effective for small datasets or nearly sorted arrays.
+- **Merge Sort** (`MergeSort.java`): A divide-and-conquer sorting algorithm with O(n log n) time complexity, suitable for larger datasets.
+
+## Getting Started
+
+### Prerequisites
+- Java Development Kit (JDK) 8 or higher
+- A Java IDE (e.g., IntelliJ IDEA, Eclipse) or a text editor with Java compilation support
+- Git (optional, for cloning the repository)
+
+### Usage
+
+Each algorithm is implemented as a standalone Java class in the src/main/java directory. You can import and use these classes in your projects or run them directly to test their functionality. Example usage for each algorithm is included in the respective source files.
+
+## License
+This project is licensed under the MIT License.
