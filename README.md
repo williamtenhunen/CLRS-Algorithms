@@ -8,6 +8,7 @@ The algorithms are located in the `src/main/java` directory. Currently, the foll
 
 - **Insertion Sort** (`InsertSort.java`): A simple, in-place sorting algorithm with O(n²) time complexity, effective for small datasets or nearly sorted arrays.
 - **Merge Sort** (`MergeSort.java`): A divide-and-conquer sorting algorithm with O(n log n) time complexity, suitable for larger datasets.
+- **Heap Sort** (`HeapSort.java`): A comparison-based sorting algorithm that uses a max-heap data structure, with O(n log n) time complexity, efficient for large datasets and offering in-place sorting with no additional memory overhead.
 
 ## Getting Started
 
